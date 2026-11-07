@@ -10,7 +10,7 @@ plugins {
     id("jacoco")
     id("groovy") 
     id("io.micronaut.application") version "4.6.1"
-    id("com.gradleup.shadow") version "8.3.9"
+    id("com.gradleup.shadow") version "8.3.11"
 }
 
 version = project.properties["zcmiVersion"]!!
